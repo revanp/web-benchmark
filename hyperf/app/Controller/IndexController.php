@@ -9,7 +9,7 @@ class IndexController extends AbstractController
     public function index()
     {
         $text = '';
-        for($i = 0; $i < 10000; $i++){
+        for($i = 0; $i < 100; $i++){
             $text .= "Hello World! \n";
         }
 

@@ -8,7 +8,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	var text string
-    for i := 0; i < 10000; i++ {
+    for i := 0; i < 100; i++ {
         text += "Hello World! \n"
     }
     
