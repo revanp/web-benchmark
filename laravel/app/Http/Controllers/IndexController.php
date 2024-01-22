@@ -10,9 +10,9 @@ class IndexController extends Controller
     {
         $text = '';
         for($i = 0; $i < 100; $i++){
-            $text .= "Hello World! <br>";
+            $text .= "Hello World! \n";
         }
 
-        return $text;
+        return response($text)->header('content-type', 'text/plain');
     }
 }
